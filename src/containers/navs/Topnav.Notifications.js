@@ -33,7 +33,7 @@ const TopnavNotifications = () => {
           color="empty"
         >
           <i className="simple-icon-bell" />
-          <span className="count">3</span>
+         
         </DropdownToggle>
         <DropdownMenu
           className="position-absolute mt-3 scroll"

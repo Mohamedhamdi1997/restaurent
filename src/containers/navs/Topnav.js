@@ -261,18 +261,10 @@ class TopNav extends Component {
               </DropdownMenu>
             </UncontrolledDropdown>
           </div>
-          <div className="position-relative d-none d-none d-lg-inline-block">
-            <a
-              className="btn btn-outline-primary btn-sm ml-2"
-              target="_top"
-              href="https://themeforest.net/cart/configure_before_adding/22544383?license=regular&ref=ColoredStrategies&size=source"
-            >
-              <IntlMessages id="user.buy" />
-            </a>
-          </div>
+          
         </div>
         <a className="navbar-logo" href="/">
-          <span className="logo d-none d-xs-block" />
+        <img alt="logo" src="/assets/img/ecommerce5.png" />
           <span className="logo-mobile d-block d-xs-none" />
         </a>
         <div className="navbar-right">
@@ -298,9 +290,9 @@ class TopNav extends Component {
           <div className="user d-inline-block">
             <UncontrolledDropdown className="dropdown-menu-right">
               <DropdownToggle className="p-0" color="empty">
-                <span className="name mr-1">Sarah Kortney</span>
+                <span className="name mr-1">Mohamed Hamdi</span>
                 <span>
-                  <img alt="Profile" src="/assets/img/profile-pic-l.jpg" />
+                  <img alt="Profile" src="/assets/img/profile-pic-2.jpg" />
                 </span>
               </DropdownToggle>
               <DropdownMenu className="mt-3" right>
@@ -310,7 +302,7 @@ class TopNav extends Component {
                 <DropdownItem>Support</DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem onClick={() => this.handleLogout()}>
-                  Sign out
+                  Deconnexion
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

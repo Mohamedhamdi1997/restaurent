@@ -14,6 +14,7 @@ import NotificationContainer from './components/common/react-notifications/Notif
 import { isMultiColorActive, isDemo } from './constants/defaultValues';
 import { getDirection } from './helpers/Utils';
 
+
 const ViewMain = React.lazy(() =>
   import(/* webpackChunkName: "views" */ './views')
 );
@@ -26,6 +27,11 @@ const ViewUser = React.lazy(() =>
 const ViewError = React.lazy(() =>
   import(/* webpackChunkName: "views-error" */ './views/error')
 );
+
+const ViewApp2 = React.lazy(() =>
+  import(/* webpackChunkName: "views-error" */ './views/app/gogo/listLivre')
+);
+
 
 const AuthRoute = ({ component: Component, authUser, ...rest }) => {
   return (
@@ -95,6 +101,14 @@ class App extends Component {
                     exact
                     render={props => <ViewMain {...props} />}
                   />
+                 
+                
+                  <Route
+                    path="/liste2"
+                    exact
+                    render={props => <ViewApp2 {...props} />}
+                  /> 
+                 
                   <Redirect to="/error" />
                 </Switch>
               </Router>

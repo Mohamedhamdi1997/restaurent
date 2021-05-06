@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+     "image": "/assets/img/eleve1.jpg",
+      "matricule": "20210002",
+      "nom": "Maha Hamdi",
+      "dateN": "23 aout 2002",
+      "classe": "8 éme",
+      "genre": "Masculin"
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/eleve1.jpg",
+      "matricule": "20210002",
+      "nom": "Maha Hamdi",
+      "dateN": "23 aout 2002",
+      "classe": "8 éme",
+      "genre": "Masculin"
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/eleve1.jpg",
+      "matricule": "20210002",
+      "nom": "Maha Hamdi",
+      "dateN": "23 aout 2002",
+      "classe": "8 éme",
+      "genre": "Masculin"
+    },
+    {
+      "id": 4,
+      "image": "/assets/img/eleve1.jpg",
+      "matricule": "20210002",
+      "nom": "Maha Hamdi",
+      "dateN": "23 aout 2002",
+      "classe": "8 éme",
+      "genre": "Masculin"
+    }
+  
+]

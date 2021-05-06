@@ -5,6 +5,7 @@ import "react-perfect-scrollbar/dist/css/styles.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import "react-table/react-table.css";
 
+
 import { isMultiColorActive, defaultColor,themeColorStorageKey,isDarkSwitchActive } from "./constants/defaultValues";
 const color =
   (isMultiColorActive||isDarkSwitchActive ) && localStorage.getItem(themeColorStorageKey)
